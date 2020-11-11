@@ -15,6 +15,10 @@ public class CheesePizza extends Pizza {
         this.ingredientFactory = ingredientFactory;
     }
 
+    public CheesePizza() {
+
+    }
+
     @Override
     public void prepare() {
         System.out.println("preparing" + getName());

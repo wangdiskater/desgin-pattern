@@ -20,6 +20,7 @@ public class NYPizzaStore extends PizzaStore {
             case "cheese":
                 pizza = new CheesePizza(pizzaIngredientFactory);
                 pizza.setName("cheese pizza in NY");
+                pizza.prepare();
                 break;
 
                 //....

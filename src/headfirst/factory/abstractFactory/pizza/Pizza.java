@@ -26,6 +26,8 @@ public abstract class Pizza {
 
     public abstract void prepare();
 
+    public Pizza() {
+    }
 
     void back(){
         System.out.println("back form");
