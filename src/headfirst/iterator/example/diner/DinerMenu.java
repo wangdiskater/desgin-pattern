@@ -1,6 +1,7 @@
 package headfirst.iterator.example.diner;
 
 import headfirst.iterator.example.Iterator;
+import headfirst.iterator.example.Menu;
 import headfirst.iterator.example.MenuItem;
 
 /**
@@ -9,7 +10,7 @@ import headfirst.iterator.example.MenuItem;
  * @Author wangDi
  * @date 2020-11-19 11:35
  */
-public class DinerMenu {
+public class DinerMenu implements Menu {
     private static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;
@@ -18,6 +19,7 @@ public class DinerMenu {
         menuItems = new MenuItem[MAX_ITEMS];
     }
 
+    @Override
     public Iterator createIterator() {
         return new DinerMenuIterator(menuItems);
     }
