@@ -1,11 +1,10 @@
-package headfirst.proxy.client;
+package headfirst.proxy.remote.client;
 
-import headfirst.proxy.service.MyRemote;
+import headfirst.proxy.remote.service.MyRemote;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
-import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 /**
