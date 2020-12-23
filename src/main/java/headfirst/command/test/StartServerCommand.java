@@ -29,6 +29,6 @@ public class StartServerCommand extends MyCommand {
     @Override
     public void load() {
         // 重新加载数据库数据
-        data = List.of(DataCenter.DATA1.getData());
+//        data = List.of(DataCenter.DATA1.getData());
     }
 }

@@ -7,6 +7,7 @@ package headfirst.component.example;
  * @date 2020-11-23 10:17
  */
 public class MenuTestDrive {
+
     public static void main(String[] args) {
 
         DefaultMenuComponent pancakeHouse = new Menu("PANCAKE HOUSE MENU", "Breakfast");
@@ -31,6 +32,5 @@ public class MenuTestDrive {
          * 打印所有绿色
          */
         waitress.printVegetarianMenu();
-
     }
 }
