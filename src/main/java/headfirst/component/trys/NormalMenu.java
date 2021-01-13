@@ -20,13 +20,8 @@ public class NormalMenu extends DefaultComponent {
     private String description;
 
     public List<DefaultComponent> getSubList() {
-        System.out.println("测试冲突到底怎么解决");
-        System.out.println("测试冲突到底怎么解决");
-        System.out.println("测试冲突到底怎么解决");
-        System.out.println("测试冲突到底怎么解决");
         return subList;
     }
-
 
     public NormalMenu(String name, String description) {
         this.name = name;
