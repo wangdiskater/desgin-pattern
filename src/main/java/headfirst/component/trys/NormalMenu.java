@@ -20,6 +20,7 @@ public class NormalMenu extends DefaultComponent {
     private String description;
 
     public List<DefaultComponent> getSubList() {
+        System.out.println("测试冲突怎么解决");
         return subList;
     }
 
