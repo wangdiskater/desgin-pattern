@@ -8,7 +8,9 @@ version '1.0'
 sourceCompatibility = 1.8
 
 repositories {
+    maven{ url 'http://mirrors.cloud.tencent.com/nexus/repository/maven-public/'}
     mavenCentral()
+    maven { url "https://jcenter.bintray.com" }
 }
 
 dependencies {
